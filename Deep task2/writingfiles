@@ -1,0 +1,14 @@
+base_path = "/mnt/data/"
+html_path = base_path + "dynamic_project_renderer.html"
+css_path = base_path + "styles.css"
+js_path = base_path + "app.js"
+
+with open(html_path, "w") as html_file:
+    html_file.write(html_content)
+
+with open(css_path, "w") as css_file:
+    css_file.write(css_content)
+
+with open(js_path, "w") as js_file:
+    js_file.write(js_content)
+
